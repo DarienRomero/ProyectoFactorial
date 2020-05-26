@@ -84,9 +84,10 @@ namespace ProyectoFactorialView {
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(57, 71);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(91, 13);
+			this->label2->Size = System::Drawing::Size(96, 13);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Ingrese el número";
+			this->label2->Text = L"Ingrese el números";
+			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
 			// 
 			// textBox1
 			// 
@@ -118,7 +119,7 @@ namespace ProyectoFactorialView {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Calcular";
+			this->button1->Text = L"Calcular valor";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -150,5 +151,7 @@ namespace ProyectoFactorialView {
 		in = System::Convert::ToString(factorial);
 		label4->Text = in;
 	}
+private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
