@@ -10,6 +10,7 @@ namespace ProyectoFactorialModel {
 			Numero();
 			Numero(int dato, long factorial);
 			long getFactorial();
+			int getdato();
 
 	};
 }
