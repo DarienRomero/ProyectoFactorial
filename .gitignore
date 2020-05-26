@@ -1,0 +1,14 @@
+Debug/
+.vs/
+ProyectoFactorialView/ProyectoFactorialView.vcxproj
+ProyectoFactorialView/ProyectoFactorialView.vcxproj.filters
+ProyectoFactorialView/ProyectoFactorialView.vcxproj.user
+ProyectoFactorialView/Debug
+ProyectoFactorialModel/Debug
+ProyectoFactorialModel/ProyectoFactorialModel.vcxproj
+ProyectoFactorialModel/ProyectoFactorialModel.vcxproj.filters
+ProyectoFactorialModel/ProyectoFactorialModel.vcxproj.user
+ProyectoFactorialController/Debug
+ProyectoFactorialController/ProyectoFactorialController.vcxproj
+ProyectoFactorialController/ProyectoFactorialController.vcxproj.filters
+ProyectoFactorialController/ProyectoFactorialController.vcxproj.user
