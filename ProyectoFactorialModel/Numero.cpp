@@ -13,3 +13,6 @@ Numero::Numero(){
 long Numero::getFactorial() {
 	return this->factorial;
 }
+int Numero::getdato() {
+	return this->dato;
+}
